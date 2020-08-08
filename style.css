@@ -1,0 +1,109 @@
+body{
+    background: #0b2239;
+    color: white;
+}
+
+#top{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+h1{
+    font-size: 2em;
+    text-align: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    width: 438px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0b2239;
+    border: solid 1px white;
+    border-radius: 5px;
+    padding: 15px;
+    padding-top: 25px;
+}
+
+.card img{
+    width: 50px;
+}
+
+.users{
+    margin-right: 70%;
+}
+
+.users p{
+    text-align: center;
+}
+
+.versus{
+    margin-top: -8em;
+}
+
+.computador{
+    margin-left: 19em;
+    margin-top: -3.6em;
+}
+
+.computador p{
+    text-align: center;
+}
+
+section #options{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 438px;
+    padding: 15px;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+.container_options__button {
+    background-color: transparent;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border: 0;
+    transition: transform .5s;
+}
+
+.container_options__button:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+.image{
+    display: flex;
+    justify-content: space-around;
+}
+
+.instructions{
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    margin-top: 15px;
+}
+
+#Iniciar_juego{
+  border-radius: 15px;
+  background-color: midnightblue;
+  border: 1px solid transparent;
+  margin-top: 15%;
+}
+
+#Iniciar_juego:hover{
+    background-color: #0b2846;
+    transition: .5s;
+}
